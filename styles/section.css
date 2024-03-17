@@ -1,26 +1,35 @@
+@media (max-width: 20rem) {
+    .section_box img {
+        max-height: 45px;
+    }
+}
+
 @media (max-width: 48rem) {
     .section {
         width: 92%;
         margin: auto;
+        font-family: "Kievit Book";
     }
 
     .section_title {
-        color: #e32b31;
+        margin: 20px 0 20px 0;
         font-size: 1.25rem;
         font-weight: bold;
-        margin: 20px 0 20px 0;
+        color: #e32b31;
     }
 
     .section_box {
         display: flex;
         justify-content: space-between;
         margin-bottom: 30px;
-        color: #1a202c;
         font-size: 1.125rem;
+        color: #1a202c;
     }
 
     .section_box img {
         margin-right: 25px;
+        width: 35%;
+        height: auto;
     }
 
     .section_box p {
@@ -28,18 +37,18 @@
     }
 
     .section_footer {
-        font-size: 1rem;
-        color: #e32b31;
-        font-weight: bold;
         text-align: center;
-        margin: 50px;
+        margin: 50px 0 50px ;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #e32b31;
     }
     
     .section_footer a {
         padding: 15px 20px;
-        text-decoration: none;
         border: 2px solid #e32b31;
         border-radius: 45px 45px 45px 45px;
+        text-decoration: none;
     }
 
     .section_title-article {
@@ -49,25 +58,20 @@
         text-transform: uppercase;
     }
 
-    .section_img {
-        height: 50px;
-        width: 100px;
-    }
-
     .section_content {
         width: 90%;
     }
 
     .section_content-title {
+        margin-bottom: 12px;
         font-size: 1.125rem;
         font-weight: bold;
-        margin-bottom: 12px;
     }
 
     .section_content-time {
-        text-transform: uppercase;
-        font-size: .75rem;
         margin-bottom: 5px;
+        font-size: .75rem;
+        text-transform: uppercase;
     }
 
     .section_content-place {
@@ -75,41 +79,42 @@
     }
 
     .section_bg {
-        background-color: #E32B31;
-        width: 100%;
         padding-top: 10px;
+        width: 100%;
+        background-color: #E32B31;
     }
 
     .section_title-bg {
-        color: #ffffff;
         width: 92%;
         margin: auto;
         padding-top: 20px;
         padding-bottom: 15px;
         border-top: 2px solid white;
+        color: #ffffff;
     }
 
     .section_box-bg {
-        width: 92%;
-        margin: auto;
         display: flex;
         align-items: flex-end;
+        width: 92%;
+        margin: auto;
     }
     
     .section_box-bg div {
+        display: flex;
+        align-items: flex-end;
         position: relative;
-        width: 320px;
+        width: 90%;
         height: 200px;
-        background-color: #ffffff;
         font-size: 1.25rem;
         font-style: italic;
-        display: flex;
+        background-color: #ffffff;
     }
 
     .section_box-bg div p {
-        margin: 70px 65px 0 20px;
-        /* padding-bottom: 50px; */
+        margin: 0 90px 10px 20px;
         text-align: left;
+        font-family: "Milo";
     }
     
     .section_box-bg img {
@@ -117,6 +122,8 @@
         z-index: 1;
         right: -5px;
         margin-bottom: 10px;
+        max-height: 160px;
+        max-width: 116px;
     }
 
     .section_box-caption {
@@ -135,12 +142,13 @@
     }
 
     .section_box-caption img {
+        max-width: 60px;
         background-color: #E32B31;
     }
 
     .section_box-caption p {
-        color: #ffffff;
         font-weight: bold;
+        color: #ffffff;
     }
 
     .section_footer-bg {
@@ -158,10 +166,10 @@
     }
 
     .dark {
-        background-color: #B80F15;
         width: 100%;
         height: 400px;
         margin-bottom: 15px;
+        background-color: #B80F15;
     }
     
     .carousel {
@@ -182,14 +190,14 @@
     }
 
     .box_carousel-title {
-        font-size: 1.125rem;
         margin-bottom: 20px;
         height: 70px;
+        font-size: 1.125rem;
     }
 
     .box_carousel-author {
-        font-size: .875rem;
         margin-bottom: 5px;
+        font-size: .875rem;
     }
 
     .box_carousel-info {
@@ -197,4 +205,3 @@
         text-transform: uppercase;
     }
 }
-

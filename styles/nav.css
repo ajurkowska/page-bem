@@ -1,3 +1,10 @@
+@media (max-width: 20rem) {
+    .logo img {
+        width: 80%;
+        padding-top: 5px;
+    }
+}
+
 @media (max-width: 48rem) {
     * {
         margin: 0;
@@ -10,8 +17,8 @@
     }
 
     nav {
-        height: 60px;
         display: flex;
+        height: 60px;
     }
     
     .logo img {
@@ -22,16 +29,16 @@
     .menu {
         margin-top: 20px;
         width: 100%;
-        margin-left: 100px;
     }
-
+    
     .menu_list {
         display: flex;
+        justify-content: flex-end;
         list-style: none;
-        justify-content: space-around;
     }
     
     .menu_item .fa-solid {
+        margin-right: 40px;
         font-size: 1.125rem;
     }
 
